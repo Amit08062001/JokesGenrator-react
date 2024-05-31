@@ -1,0 +1,25 @@
+.card{
+    height: 500px;
+    width: 500px;
+    border: 5px solid #7b5550;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin-top: 50px;
+    background-color: #a83829 ;
+    border-radius: 10%;
+    filter: drop-shadow(#a83829);
+}
+
+h3{
+    margin: 100px 0px 0px 0px;
+}
+h1{
+    background: linear-gradient( #a83829, #7b5550 ,#B84795);
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+}
+button{
+    margin-top: 35px;
+    background-color: rgb(111, 24, 24);
+}
